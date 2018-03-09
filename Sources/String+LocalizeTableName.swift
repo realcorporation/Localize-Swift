@@ -17,9 +17,11 @@ public extension String {
      - parameter tableName: The receiver’s string table to search. If tableName is `nil`
      or is an empty string, the method attempts to use `Localizable.strings`.
      
+     - parameter comment: The comment for developer, ignore in the function.
+     
      - returns: The localized string.
      */
-    func localized(using tableName: String?) -> String {
+    func localized(using tableName: String?, comment: String? = nil) -> String {
         return localized(using: tableName, in: .main)
     }
     
@@ -31,10 +33,12 @@ public extension String {
      - parameter tableName: The receiver’s string table to search. If tableName is `nil`
      or is an empty string, the method attempts to use `Localizable.strings`.
      
+     - parameter comment: The comment for developer, ignore in the function.
+     
      - returns: The formatted localized string with arguments.
      */
-    func localizedFormat(arguments: CVarArg..., using tableName: String?) -> String {
-        return String(format: localized(using: tableName), arguments: arguments)
+    func localizedFormat(arguments: CVarArg..., using tableName: String?, comment: String? = nil) -> String {
+        return String(format: localized(using: tableName, comment: comment), arguments: arguments)
     }
     
     /**
@@ -45,10 +49,12 @@ public extension String {
      - parameter tableName: The receiver’s string table to search. If tableName is `nil`
      or is an empty string, the method attempts to use `Localizable.strings`.
      
+     - parameter comment: The comment for developer, ignore in the function.
+     
      - returns: Pluralized localized string.
      */
-    func localizedPlural(argument: CVarArg, using tableName: String?) -> String {
-        return NSString.localizedStringWithFormat(localized(using: tableName) as NSString, argument) as String
+    func localizedPlural(argument: CVarArg, using tableName: String?, comment: String? = nil) -> String {
+        return NSString.localizedStringWithFormat(localized(using: tableName, comment: comment) as NSString, argument) as String
     }
     
 }
