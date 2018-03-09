@@ -16,4 +16,4 @@ FOUNDATION_EXPORT const unsigned char Localize_SwiftVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <Localize_Swift/PublicHeader.h>
 
-
+#define LCLLanguageChangeNotification @"LCLLanguageChangeNotification"

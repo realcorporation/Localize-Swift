@@ -60,7 +60,6 @@
 		68973D651DA7AA200076F08A /* String+LocalizeBundle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+LocalizeBundle.swift"; path = "Sources/String+LocalizeBundle.swift"; sourceTree = SOURCE_ROOT; };
 		68973D6A1DA7AB140076F08A /* String+LocalizedBundleTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+LocalizedBundleTableName.swift"; path = "Sources/String+LocalizedBundleTableName.swift"; sourceTree = SOURCE_ROOT; };
 		68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 4; lastKnownFileType = sourcecode.swift; name = "String+LocalizeTableName.swift"; path = "Sources/String+LocalizeTableName.swift"; sourceTree = SOURCE_ROOT; tabWidth = 4; usesTabs = 0; };
-		9B0E5DD120528EDC005821E8 /* NSString+Localize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+Localize.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,7 +133,6 @@
 				3433F2501C518B38003AE34D /* Localize_Swift.h */,
 				3433F2511C518B38003AE34D /* Localize.swift */,
 				68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */,
-				9B0E5DD120528EDC005821E8 /* NSString+Localize.swift */,
 				68973D651DA7AA200076F08A /* String+LocalizeBundle.swift */,
 				68973D6A1DA7AB140076F08A /* String+LocalizedBundleTableName.swift */,
 				3433F23B1C518AF7003AE34D /* Info.plist */,
