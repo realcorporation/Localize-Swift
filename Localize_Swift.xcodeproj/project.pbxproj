@@ -33,7 +33,6 @@
 		68A520051DA6D5FD00F43D9E /* String+LocalizeTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */; };
 		68A520061DA6D5FD00F43D9E /* String+LocalizeTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */; };
 		68A520071DA6D5FD00F43D9E /* String+LocalizeTableName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A520031DA6D5FD00F43D9E /* String+LocalizeTableName.swift */; };
-		9B0E5DD220528EDC005821E8 /* NSString+Localize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B0E5DD120528EDC005821E8 /* NSString+Localize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -372,7 +371,6 @@
 				68973D661DA7AA200076F08A /* String+LocalizeBundle.swift in Sources */,
 				3433F2531C518B38003AE34D /* Localize.swift in Sources */,
 				68A520041DA6D5FD00F43D9E /* String+LocalizeTableName.swift in Sources */,
-				9B0E5DD220528EDC005821E8 /* NSString+Localize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
